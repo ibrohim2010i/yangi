@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+
+/* Flex container */
+/* Flex darection */
+
+.flex-container{
+    display: flex;
+    background-color: dodgerblue;
+}
+
+.flex-container div{
+    width: 300px;
+    padding: 50px;
+    background-color: cadetblue;
+    margin: 10px;
+}
