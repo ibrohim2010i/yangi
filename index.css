@@ -45,7 +45,7 @@
 
 
 
-.flex-container{
+/* .flex-container{
     display: flex;
     background-color: dodgerblue;
     justify-content: flex-start;
@@ -54,6 +54,24 @@
 
 .flex-container div{
     width: 300px;
+    height: 200px;
+    padding: 50px;
+    background-color: cadetblue;
+    margin: 10px;
+} */
+
+/* 4. align-item  */
+.flex-container{
+    display: flex;
+    background-color: dodgerblue;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+
+}
+
+.flex-container div{
+    width: 200px;
     height: 200px;
     padding: 50px;
     background-color: cadetblue;
